@@ -4,12 +4,14 @@
 
 int main(void)
 {
-    int num1, num2, suma;
-    p("Ingrese primer valor: ");
+    int num1, num2, num3, suma;
+    p("Ingrese el primer valor: ");
     s("%d", &num1);
-    p("Ingrese segundo valor: ");
+    p("Ingrese el segundo valor: ");
     s("%d", &num2);
+    p("Ingrese el tercer valor: ");
+    s("%d", &num3);
     suma = num1 + num2;
-    p("%d + %d = %d",num1,num2,suma);
+    p("%d + %d + %d = %d", num1, num2, num3, suma);
     return 0;
 }
