@@ -9,7 +9,7 @@ int main(void)
     s("%d", &edad);
     if((edad>0) && (edad<110)){
         if(edad>18){
-                p("Es mayor de edad");
+            p("Es mayor de edad");
         }else{
             p("No es mayor de edad");
         }
