@@ -15,5 +15,5 @@ int main(void)
         }
     }else{
         p("Ingrese una fecha valida");
-    }
+    } 
 }
